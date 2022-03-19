@@ -8,9 +8,9 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: 'hola',
+        source: '/hola',
         destination: 'https://gndx.dev',
-        permanet: true,
+        permanent: true,
       },
     ];
   },
